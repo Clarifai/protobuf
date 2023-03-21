@@ -37,7 +37,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/gogo/protobuf/proto"
+	"github.com/Clarifai/protobuf/proto"
 )
 
 func BenchmarkVarintIssue436withCount(b *testing.B) {

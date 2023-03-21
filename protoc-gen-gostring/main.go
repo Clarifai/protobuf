@@ -29,8 +29,8 @@
 package main
 
 import (
-	"github.com/gogo/protobuf/plugin/gostring"
-	"github.com/gogo/protobuf/vanity/command"
+	"github.com/Clarifai/protobuf/plugin/gostring"
+	"github.com/Clarifai/protobuf/vanity/command"
 )
 
 func main() {

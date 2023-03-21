@@ -5,8 +5,8 @@ package empty
 
 import (
 	fmt "fmt"
-	_ "github.com/gogo/protobuf/gogoproto"
-	proto "github.com/gogo/protobuf/proto"
+	_ "github.com/Clarifai/protobuf/gogoproto"
+	proto "github.com/Clarifai/protobuf/proto"
 	io "io"
 	math "math"
 )
