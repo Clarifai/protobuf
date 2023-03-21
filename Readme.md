@@ -1,3 +1,5 @@
+# This if forked gogo/protobuf. And make `goproto_registration` option enabled by default (without manually add `option` in proto file) 
+
 [GoGo Protobuf is Deprecated](https://twitter.com/awalterschulze/status/1584553056100057088)
 
 # [[Deprecated](https://twitter.com/awalterschulze/status/1584553056100057088)] Protocol Buffers for Go with Gadgets
