@@ -29,7 +29,7 @@
 package unmarshalmerge
 
 import (
-	"github.com/gogo/protobuf/proto"
+	"github.com/Clarifai/protobuf/proto"
 	math_rand "math/rand"
 	"testing"
 	"time"

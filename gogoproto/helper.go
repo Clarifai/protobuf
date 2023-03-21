@@ -28,8 +28,8 @@
 
 package gogoproto
 
-import google_protobuf "github.com/gogo/protobuf/protoc-gen-gogo/descriptor"
-import proto "github.com/gogo/protobuf/proto"
+import google_protobuf "github.com/Clarifai/protobuf/protoc-gen-gogo/descriptor"
+import proto "github.com/Clarifai/protobuf/proto"
 
 func IsEmbed(field *google_protobuf.FieldDescriptorProto) bool {
 	return proto.GetBoolExtension(field.Options, E_Embed, false)
@@ -399,7 +399,7 @@ func HasCompare(file *google_protobuf.FileDescriptorProto, message *google_proto
 }
 
 func RegistersGolangProto(file *google_protobuf.FileDescriptorProto) bool {
-	return proto.GetBoolExtension(file.Options, E_GoprotoRegistration, false)
+	return proto.GetBoolExtension(file.Options, E_GoprotoRegistration, true)
 }
 
 func HasMessageName(file *google_protobuf.FileDescriptorProto, message *google_protobuf.DescriptorProto) bool {

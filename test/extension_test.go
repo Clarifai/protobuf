@@ -34,7 +34,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gogo/protobuf/proto"
+	"github.com/Clarifai/protobuf/proto"
 )
 
 //func SetRawExtension(base extendableProto, id int32, b []byte) {
